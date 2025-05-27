@@ -1,0 +1,35 @@
+Phishing Analysis Report
+
+Email Subject: Important Notice – Account Suspension Warning
+
+1. Sender Spoofing:
+   - Display Name: PayPal
+   - Email Address: support@secure-paypol.com (Note the misspelling "paypol")
+
+2. Suspicious Links:
+   - Link Text: "Verify your account"
+   - Actual URL: http://malicious-site.net/login
+
+3. Header Analysis:
+   - IP origin does not match the claimed organization.
+   - SPF/DKIM checks failed.
+
+4. Urgent/Threatening Language:
+   - "Failure to verify your account will result in suspension."
+
+5. Grammar/Spelling Errors:
+   - "Your acount has been flagged" (spelling mistake: "account")
+
+6. Fake Attachment:
+   - Filename: invoice.html
+   - Redirects to credential harvesting page
+
+7. Mismatched URLs:
+   - Hover text shows PayPal.com, actual link is malicious
+
+Conclusion:
+This email exhibits multiple signs of phishing and should be reported and deleted. Do not click any links or download attachments.
+
+Tools Used:
+- https://mxtoolbox.com/EmailHeaders.aspx
+- Manual inspection and hover technique
